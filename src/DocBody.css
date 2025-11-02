@@ -1,0 +1,25 @@
+
+.ParentContainer{
+    display:flex;
+    justify-content:center;
+    height: 1200px;
+    background-color: #f9fbfd;
+    overflow-y: auto;
+    
+}
+
+.Wrapper{
+    margin-top:50px;
+    width:60%;
+    height:80%;
+    min-width: 700px;
+}
+
+.DocBody{
+    height:95%;
+    border: 2px solid #c8c8c8;
+    background-color: white;
+    overflow: hidden;
+    max-width:900px;
+    min-width: 700px;
+}

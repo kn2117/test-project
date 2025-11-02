@@ -1,0 +1,74 @@
+.fullHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #c8c8c8;
+    height: 70px;
+}
+
+.fullHeaderItem, .leftSideHeaderItem, .rightSideHeaderItem, .headerStackItem, .titleBarItem {
+    display: inline-block;
+}
+
+.rightSideHeaderItem {
+    padding: 10px;
+}
+
+.leftSideHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.rightSideHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.headerStackContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.logo {
+    height: 40px;
+    padding: 15px;
+    padding-right: 10px;
+}
+
+.menuBarContainer {
+    margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+.shareButtonContainer {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.titleBarItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+.titleBarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+}

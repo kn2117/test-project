@@ -1,0 +1,18 @@
+#root {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.header, .documentTabs, .editingModes, .ribbonMenu, .mainDocWindow {
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  background-color: white;
+}
+
+.docBody {
+  margin-top: 90px;
+}
